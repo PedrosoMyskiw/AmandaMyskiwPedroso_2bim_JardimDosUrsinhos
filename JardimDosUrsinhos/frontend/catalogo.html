@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Catálogo | Jardim dos Ursinhos</title>
+
+    <link rel="stylesheet" href="catalogo.css">
+
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+        🧸 Jardim dos Ursinhos
+    </div>
+
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="#categorias">Categorias</a>
+        <a href="#produtos">Produtos</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+</header>
+
+<section class="banner">
+
+    <h1>Nosso Catálogo</h1>
+
+    <p>
+        Escolha seu amigurumi favorito feito com carinho.
+    </p>
+
+</section>
+
+<section id="categorias" class="categorias">
+
+    <h2>Categorias</h2>
+
+    <div class="botoes-categoria">
+
+        <button data-categoria="0">
+            Todos
+        </button>
+
+        <button data-categoria="1">
+            Ursinhos
+        </button>
+
+        <button data-categoria="2">
+            Coelhinhos
+        </button>
+
+        <button data-categoria="3">
+            Gatinhos
+        </button>
+
+        <button data-categoria="4">
+            Personagens
+        </button>
+
+    </div>
+
+</section>
+
+<section class="filtros">
+
+    <h2>Filtrar Produtos</h2>
+
+    <div class="area-filtros">
+
+        <input
+            type="text"
+            id="pesquisa"
+            placeholder="Pesquisar produto..."
+        >
+
+        <select id="faixa-preco">
+
+            <option value="todos">
+                Todas as faixas
+            </option>
+
+            <option value="50">
+                Até R$ 50
+            </option>
+
+            <option value="80">
+                Até R$ 80
+            </option>
+
+            <option value="100">
+                Até R$ 100
+            </option>
+
+        </select>
+
+        <select id="ordenacao">
+
+            <option value="">
+                Ordenar por preço
+            </option>
+
+            <option value="crescente">
+                Menor preço
+            </option>
+
+            <option value="decrescente">
+                Maior preço
+            </option>
+
+        </select>
+
+        <button id="btn-pesquisar">
+            Buscar
+        </button>
+
+    </div>
+
+</section>
+
+<section id="produtos" class="catalogo">
+
+    <h2>Nossos Produtos</h2>
+
+    <div class="produtos" id="lista-produtos">
+
+        <!-- Produtos carregados pelo JavaScript -->
+
+    </div>
+
+</section>
+
+<section class="informacoes">
+
+    <div class="info-card">
+
+        <h3>🧶 Produção Artesanal</h3>
+
+        <p>
+            Cada amigurumi é confeccionado à mão com muito cuidado.
+        </p>
+
+    </div>
+
+    <div class="info-card">
+
+        <h3>🎁 Presente Especial</h3>
+
+        <p>
+            Perfeito para presentear quem você ama.
+        </p>
+
+    </div>
+
+    <div class="info-card">
+
+        <h3>🤎 Personalização</h3>
+
+        <p>
+            Escolha cores e detalhes exclusivos.
+        </p>
+
+    </div>
+
+</section>
+
+<footer id="contato">
+
+    <h3>🧸 Jardim dos Ursinhos</h3>
+
+    <p>
+        Instagram • WhatsApp • E-mail
+    </p>
+
+    <p class="copyright">
+        Desenvolvido por Amanda Myskiw Pedroso
+    </p>
+
+</footer>
+
+<script src="catalogo.js"></script>
+
+</body>
+
+</html>
